@@ -1,6 +1,7 @@
-<?php namespace CSApi;
+<?php
+namespace ErsteApi;
 
-abstract class CSApi
+abstract class ErsteApi
 {
     /**
      * Configuration settings
