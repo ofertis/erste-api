@@ -1,0 +1,20 @@
+{
+  "name": "ofertis/erste-api",
+  "description": "Library to access ERSTE - Ceska sporitelna API",
+  "type": "package",
+  "authors": [
+    {
+      "name": "Stanislav Krasa",
+      "email": "standa@muj-webik.cz"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "league/oauth2-client": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "ErsteApi\\": "src/"
+    }
+  }
+}
